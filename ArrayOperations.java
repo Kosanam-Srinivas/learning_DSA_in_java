@@ -39,8 +39,8 @@ public class ArrayOperations {
         intArray[4] = 78;
         intArray[5] = -6;
         intArray[6] = -22;
-        printArray(numbers);
-        ArrayTraversal(numbers);
+//        printArray(numbers);
+//        ArrayTraversal(numbers);
 //        ArrayInsertionNewValue(numbers);
     }
 }
