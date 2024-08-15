@@ -1,5 +1,5 @@
 
-public class ArrayOperations {
+public class ArrayInsertOperations {
 
     public static void printArray(Object array) {
         if (array instanceof int[]) {
