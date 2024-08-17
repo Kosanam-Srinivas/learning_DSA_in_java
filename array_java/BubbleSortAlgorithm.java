@@ -1,3 +1,5 @@
+package array_java;
+
 public class BubbleSortAlgorithm {
     public static void main(String[] args) {
         int arr[] = {9,8,5,7,2,6,3,4,1,0};

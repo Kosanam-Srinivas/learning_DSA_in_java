@@ -1,3 +1,5 @@
+package array_java;
+
 public class ArrayDeleteOperations {
     public static void printArray(int[] array, int logicalSize) {
         for (int i = 0; i < logicalSize; i++) {
