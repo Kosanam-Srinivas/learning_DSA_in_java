@@ -3,7 +3,7 @@ public class BinarySearchJava {
         int[] arr = {1,3,5,7,9,11,13,15};
         int target = 13;
         int result = binarySearchJava(arr, target);
-        int resultRec = recursionBinarySearchJava(arr, target, 0, arr.length);
+        int resultRec = recursionBinarySearchJava(arr, target, 0, arr.length-1);
         if (resultRec != -1)
             System.out.println("Element found at index "+resultRec);
         else
