@@ -16,7 +16,6 @@ public class ArrayDeleteOperations {
         }
         return logicalSize;
     }
-
     public static int removeElementAtPosition(int[] array, int logicalSize, int position) {
         if (position < 0 || position >= logicalSize) {
             System.out.println("Invalid position.");
@@ -44,7 +43,7 @@ public class ArrayDeleteOperations {
 
         // Remove element at position 1 (second element)
         int pos = 1;
-        System.out.println("Remove element at position" + pos);
+        System.out.println("Remove element at position " + pos);
         logicalSize = removeElementAtPosition(myArray, logicalSize, pos);
         printArray(myArray, logicalSize);  // Output: 10 30 40
 
